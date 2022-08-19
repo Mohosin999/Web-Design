@@ -127,18 +127,9 @@ nav {
   margin-top: 7px;
 }
 
-.my-skills {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  text-transform: capitalize;
-  margin-top: 30px;
-}
-
 .skill-chips {
   display: flex;
-  margin-top: 5px;
+  margin-top: 30px;
 }
 
 .skill-chip {
@@ -163,3 +154,62 @@ nav {
   margin-right: 60px;
 }
 /* Profile Card Section Ends */
+
+/* my skills section start */
+.my-skills-container {
+  width: 100%;
+  height: 400px;
+  margin-top: 35px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 40px 53px;
+}
+
+.my-skills-heading {
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #333;
+}
+
+.skills-container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.skill-item-container {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.image-container img {
+  width: 75px;
+  height: 75px;
+}
+
+.content-container {
+  margin-left: 20px;
+}
+.content-container h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.content-container h5 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+}
+
+.content-container p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #333;
+  margin-top: 15px;
+}
+
+/* Mohosin Hasan Akash */
