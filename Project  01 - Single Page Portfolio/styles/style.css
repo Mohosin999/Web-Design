@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+/* selection color */
+::selection {
+  background-color: #f7cc0c;
+  color: #333;
+}
+
 html,
 body {
   width: 100vw;
@@ -142,6 +148,17 @@ nav {
   font-size: 14px;
   font-weight: 600;
   margin-right: 12px;
+  transition: 0.1s;
+}
+
+.skill-chip:hover {
+  background-color: #008000;
+  color: #fff;
+}
+
+.skill-chip:active {
+  background-color: #ff0000;
+  color: #fff;
 }
 
 .profile-bio {
@@ -156,9 +173,9 @@ nav {
 /* Profile Card Section Ends */
 
 /* my skills section start */
-.my-skills-container {
+.my-skills-section {
   width: 100%;
-  height: 400px;
+  height: 390px;
   margin-top: 35px;
   background-color: #fff;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
@@ -166,50 +183,62 @@ nav {
   padding: 40px 53px;
 }
 
-.my-skills-heading {
+.section-heading {
+  font-style: normal;
+  font-weight: 400;
   font-size: 22px;
-  font-weight: 300;
-  text-transform: uppercase;
   letter-spacing: 0.04em;
+  text-transform: uppercase;
   color: #333;
+  margin-bottom: 15px;
 }
 
 .skills-container {
-  margin-top: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .skill-item-container {
   display: flex;
-  margin-bottom: 18px;
+  margin-top: 20px;
 }
 
-.image-container img {
-  width: 75px;
-  height: 75px;
+/* .icon-container {
+  border-radius: 3px;
+} */
+
+.icon-container img {
+  width: 70px;
+  height: 70px;
 }
 
-.content-container {
+.text-container {
   margin-left: 20px;
 }
-.content-container h3 {
+
+.text-container h1 {
+  font-style: normal;
+  font-weight: bold;
   font-size: 18px;
-  color: #333;
+  letter-spacing: 0.04em;
+  color: #333333;
 }
 
-.content-container h5 {
-  font-size: 14px;
+.text-container h3 {
+  font-style: normal;
   font-weight: bold;
-  color: #333;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: #555;
   margin-top: 5px;
 }
 
-.content-container p {
+.text-container p {
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  font-weight: 300;
-  color: #333;
-  margin-top: 15px;
+  letter-spacing: 0.04em;
+  color: #555555;
+  margin-top: 12px;
 }
-
-/* Mohosin Hasan Akash */
+/* my skills section ends */
