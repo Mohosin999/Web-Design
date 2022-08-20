@@ -6,7 +6,7 @@ html,
 body {
   width: 100vw;
   min-height: 100vh;
-  font-family: sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .container {
@@ -22,6 +22,7 @@ h1 {
 p {
   color: #000;
   font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
   line-height: 1.5;
   margin-top: 10px;
 }
@@ -133,11 +134,17 @@ hr.home {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
+  margin-top: 15px;
+}
+
+.blog-cards a {
+  text-decoration: none;
 }
 
 .blog-card-item {
   width: 100%;
   overflow: hidden;
+  background-color: #eaeaea;
 }
 
 .home-blog-img {
@@ -169,4 +176,24 @@ hr.home {
   margin-top: -16px;
 }
 
+.card-contents {
+  padding: 0 25px 40px 25px;
+}
+
+.small {
+  font-size: 13px;
+}
+
+.small span {
+  font-weight: bolder;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.all-posts {
+  margin-top: 30px;
+}
 /* main area style ends */
