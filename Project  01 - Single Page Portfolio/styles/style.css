@@ -343,8 +343,16 @@ nav {
   margin-right: 15px;
 }
 
-.portfolio-image img {
-  width: 272px;
+.portfolio-image {
+  width: 100%;
   height: 120px;
+  max-height: 120px;
+}
+
+.portfolio-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 /* my portfolio footer section ends */
