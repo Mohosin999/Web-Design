@@ -1,0 +1,9 @@
+.blog-item-text img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.blog-hr {
+  margin: 40px 0;
+}
